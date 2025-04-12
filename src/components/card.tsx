@@ -4,9 +4,7 @@ export const Card = async () => {
   const { slip } = res;
   return (
     <div>
-      <h1>Random Number</h1>
-      <h2>{slip.id}</h2>
-      <p>{slip.advice}</p>
+      <h1>this is async comp</h1>
     </div>
   )
 }
