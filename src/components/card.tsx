@@ -1,4 +1,4 @@
-export const Card = async () => {
+export const Card = () => {
   return (
     <div>
       <h1>Random Number</h1>
