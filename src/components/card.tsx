@@ -5,6 +5,8 @@ export const Card = async () => {
   return (
     <div>
       <h1>this is async comp</h1>
+      <h2>{slip.id}</h2>
+      <p>{slip.advice}</p>
     </div>
   )
 }
